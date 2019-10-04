@@ -15,7 +15,7 @@ spec:
         app: nginx
     spec:
       containers:
-        - image: 796489341143.dkr.ecr.ap-northeast-1.amazonaws.com/sample-app:5cab88191d05afe339c4722a5b6d60b53935273a
+        - image: 796489341143.dkr.ecr.ap-northeast-1.amazonaws.com/sample-app:dadbfc1ca62a1e1313f91687777a0a98ab556218
           name: nginx
           ports:
             - containerPort: 5000
