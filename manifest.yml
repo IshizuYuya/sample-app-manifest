@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - image: 796489341143.dkr.ecr.ap-northeast-1.amazonaws.com/sample-app:f372cf92c6b1e562c083a4a0fb71351d765691ed
-          name: test
+          name: sample-app
           ports:
             - containerPort: 5000
