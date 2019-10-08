@@ -2,20 +2,20 @@ apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
   labels:
-    app: sample2
-  name: sample2-rs
+    app: test
+  name: test-rs
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: sample2
+      app: test
   template:
     metadata:
       labels:
-        app: sample2
+        app: test
     spec:
       containers:
         - image: 796489341143.dkr.ecr.ap-northeast-1.amazonaws.com/sample-app:f372cf92c6b1e562c083a4a0fb71351d765691ed
-          name: sample2
+          name: test
           ports:
             - containerPort: 5000
