@@ -3,16 +3,16 @@ kind: ReplicaSet
 metadata:
   labels:
     app: sample
-  name: sample-rs
+  name: sample
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: sample
+      appname: sample
   template:
     metadata:
       labels:
-        app: sample
+        appname: sample
     spec:
       containers:
         - image: 796489341143.dkr.ecr.ap-northeast-1.amazonaws.com/sample-app:f372cf92c6b1e562c083a4a0fb71351d765691ed
