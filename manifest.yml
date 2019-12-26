@@ -15,7 +15,7 @@ spec:
         appname: sample
     spec:
       containers:
-        - image: 796489341143.dkr.ecr.ap-northeast-1.amazonaws.com/sample-app:98f51e602853bb7a852db35bf3dc25d036238cab
+        - image: 796489341143.dkr.ecr.ap-northeast-1.amazonaws.com/sample-app:b4e31c0f824c553e22184ff413baa5bec56d7a53
           name: sample
           ports:
             - containerPort: 5000
